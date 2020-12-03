@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+html,body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+:root{
+	--wColor:#fff;
+	--hColor:#4f4f4f;
+	--pColor:#8b8b8b;
+}
+
+/*== Header top ==*/
+#header_top{
+	width: 100%;
+	height: 70px;
+	background: var(--wColor);
+}
+/*== Header top X ==*/
+
+
+/*== Banner ==*/
+#banner{
+	width: 100%;
+	height: 484px;
+	background-image: url(../img/banner-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	z-index: -1;
+}
+
+.bell{
+	margin-top: 30px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.bell img{
+	width: 60px;
+	height: 60px;
+}
+
+.banner_txt{
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.banner_txt h3{
+	font-size: 36px;
+	color: var(--wColor);
+}
+
+.banner_txt h1{
+	font-size: 87px;
+	color: var(--wColor);
+}
+
+
+/*== Banner X ==*/
+
+/*== Transaction ==*/
+#trns{
+	margin-top: -75px ;
+}
+.each_trans{
+	width: 100%;
+	height: 155px;
+	box-shadow: 10px 10px 20px #969696;
+	z-index: 1;
+	background: var(--wColor);
+
+}
+
+.trans_icon{
+	width: 50px;
+	height: 50px;
+	background: var(--wColor);
+	position: absolute;
+	top:-24px;
+	right: -2px;
+	border-radius: 100%;
+	box-shadow: 2px 2px 20px #000;
+}
+
+.trans_icon img{
+	padding: 9px;
+}
+
+.each_trans{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.each_trans h3{
+	color: var(--pColor);
+}
+/*== Transaction X ==*/
+
+/*=== History ==*/
+
+#history{
+	padding-top: 150px;
+}
+
+.his_sec_title {
+	padding-bottom: 70px;
+}
+
+.his_sec_title h1{
+	color: var(--hColor);
+}
+
+.history_img{
+	width: 70px;
+	height: 70px;
+	padding: 9px;
+	border-radius: 100%;
+	background: #5c97f9;
+}
+.history_img img{
+	margin: 9px;
+}
+.history_cover{
+	border-bottom: 2px solid #f1f1f1;
+	margin-bottom: 25px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.request_bg{
+	background: #26b99a;
+}
+
+.send-bg{
+	background: #f95c5c;
+}
+
+.trans_value{
+	margin-right: 30px;
+}
+/*=== History X ==*/
